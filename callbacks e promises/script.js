@@ -1,5 +1,3 @@
-const { Promise } = require("q");
-
 function doSomething(callback) {
   setTimeout(function () {
     // did something
