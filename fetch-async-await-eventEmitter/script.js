@@ -1,6 +1,3 @@
-const { resolve } = require("path");
-const { reject } = require("q");
-
 fetch("http://localhost:8080/dataXPTO.json")
   .then((responseStream) => {
     if (responseStream.status === 200) {
@@ -96,3 +93,5 @@ const simpleFunc = async () => {
     .catch((err) => {
       console.log(err);
     });
+
+
